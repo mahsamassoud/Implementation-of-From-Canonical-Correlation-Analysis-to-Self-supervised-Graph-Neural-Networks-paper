@@ -1,0 +1,2 @@
+# Implementation-of-From-Canonical-Correlation-Analysis-to-Self-supervised-Graph-Neural-Networks-paper
+In this repository, by help of GNNs we can see the effect of trade-off hyperparameter( λ ) on the test accuracy for four datasets ( Cora, Citeseer, Pubmed, and CoraFull). According to the paper, the most promising performance benefits from a proper selection of  λ  from 0.0005 to 0.0001. The decorrelation term does not work when the  λ  is too small. If it is too large, the invariance term would be neglected, leading to performance degradation.
